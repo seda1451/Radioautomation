@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-studio-bg: #121316;
+    --color-studio-panel: #1a1c23;
+    --color-studio-panelHover: #232631;
+    --color-studio-border: #2c303e;
+  }
+  
+  body {
+    background-color: #121316;
+    color: #e2e8f0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #121316;
+}
+::-webkit-scrollbar-thumb {
+  background: #2c303e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Glow Utilities */
+.glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.45);
+}
+.glow-green {
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.45);
+}
+.glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.45);
+}
+.glow-teal {
+  box-shadow: 0 0 15px rgba(20, 184, 166, 0.45);
+}
+.glow-purple {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.45);
+}
+
+/* Vertical slider custom styling */
+.fader-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+.fader-slider:focus {
+  outline: none;
+}
+

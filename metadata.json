@@ -1,0 +1,10 @@
+{
+  "name": "Remix Cloud Radio Automation Studio",
+  "description": "Professional cloud broadcast radio automation suite with AI morning show duo \u0026 listener phone-in, silence detector \u0026 auto-failover, multitrack aircheck voice tracker with auto-ducking, RDS RT+ \u0026 DAB+ visual radio generator, 24/7 compliance logger \u0026 podcast creator, broadcast FX soundboard synthesizer, 5-channel mixer, and live playout log.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
